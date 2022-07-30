@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.home-screen-buttons{
+    margin-bottom: 20px;
+}
+
+.home-screen-buttons button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.home-screen-buttons button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.heading-txt {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.my-name {
+    cursor: pointer;
+}
+
+.homeScreen-root-element {
+    text-align: center;
+}
+
+.framed {
+    height: 150px;
+    width: 150px;
+    box-shadow: -36px 35px 0px -24px #FF7C7C;
+    margin-bottom: 20px;
+}
