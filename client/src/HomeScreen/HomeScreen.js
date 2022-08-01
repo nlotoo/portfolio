@@ -15,17 +15,17 @@ export const HomeScreen = () => {
             </div>
             <div className="home-screen-social-media-icon" >
                 <div>
-                    <Link to='https://github.com/nlotoo'>
+                    <Link to='\github.com/nlotoo' target="_blank" rel="noopener noreferrer">
                         <TiSocialGithubCircular />
                     </Link>
                 </div>
                 <div>
-                    <Link to='https://www.linkedin.com/in/yordan-nikolov-84b98a1a9/'>
+                    <Link to='\www.linkedin.com/in/yordan-nikolov-84b98a1a9/' target="_blank" rel="noopener noreferrer">
                         <TiSocialLinkedinCircular />
                     </Link>
                 </div>
                 <div>
-                    <Link to='https://www.facebook.com/nlotoo93/'>
+                    <Link to='\www.facebook.com/nlotoo93/' target="_blank" rel="noopener noreferrer"> 
                         <TiSocialFacebookCircular />
                     </Link>
                 </div>
@@ -34,6 +34,7 @@ export const HomeScreen = () => {
                 <div>Scroll Down</div>
             </div>
 
-        </div>)
+        </div>
+    )
 
 };

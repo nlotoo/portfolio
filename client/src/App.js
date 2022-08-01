@@ -3,6 +3,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './navigation/NavigationBar';
 import { HomeScreen } from './HomeScreen/HomeScreen';
+import { Contatct } from './Contatct/Contatct';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Navbar />} />
       </Routes>
+    
       <HomeScreen />
+
+      <Contatct />
     </div>
   );
 }
