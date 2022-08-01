@@ -7,7 +7,7 @@ export const ContatctForm = () => {
     }
 
     return (<div className='contact-me-form'>
-        <form onSubmit={SendForm}>
+        <form className='contact-form' onSubmit={SendForm}>
             <input placeholder='Your full name'></input>
             <input placeholder='Email'></input>
             <textarea></textarea>

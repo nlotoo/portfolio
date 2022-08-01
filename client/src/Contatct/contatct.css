@@ -20,9 +20,9 @@ background-color: whitesmoke;
 
 
 .contact-me-a-tag {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: grid;
-    width: 30%;
+    width: fit-content;
 
 
 }
