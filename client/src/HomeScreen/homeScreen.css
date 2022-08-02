@@ -4,7 +4,7 @@
     margin-top: 20px;
 }
 
-.home-screen-buttons button {
+.home-screen-buttons a {
     background-color: white;
     color: black;
     border: 2px solid #008CBA;
@@ -20,7 +20,7 @@
 
 }
 
-.home-screen-buttons button:hover {
+.home-screen-buttons a:hover {
     background-color: #008CBA;
     color: white;
 }

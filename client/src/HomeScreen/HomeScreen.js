@@ -1,7 +1,12 @@
 import { TiSocialFacebookCircular, TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import './homeScreen.css'
+import CV from '../public/CV_Yordan_Nikolov.doc'
+
 export const HomeScreen = () => {
+
+
+
 
     return (
         <div className='homeScreen-root-element'>
@@ -10,8 +15,9 @@ export const HomeScreen = () => {
             <h3 className='my-name'>Yordan Nikolov</h3>
             <div className="heading-txt" >Fullstack Developer</div>
             <div className='home-screen-buttons'>
-                <button>Download CV</button>
-                <button>Let`s Talk</button>
+
+                <Link to={CV} target="_blank" rel="noopener noreferrer" download>Download CV</Link>
+                <Link to='#'>Let`s Talk</Link>
             </div>
             <div className="home-screen-social-media-icon" >
                 <div>
@@ -25,7 +31,7 @@ export const HomeScreen = () => {
                     </Link>
                 </div>
                 <div>
-                    <Link to='\www.facebook.com/nlotoo93/' target="_blank" rel="noopener noreferrer"> 
+                    <Link to='\www.facebook.com/nlotoo93/' target="_blank" rel="noopener noreferrer">
                         <TiSocialFacebookCircular />
                     </Link>
                 </div>
