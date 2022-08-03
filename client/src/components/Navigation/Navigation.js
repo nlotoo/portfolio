@@ -6,7 +6,7 @@ import { MdWorkspacesFilled } from 'react-icons/md';
 export const Navigation = () => {
 
     return (
-        <nav>
+        <nav className='nav-paf'>
             <ul className='navigation-menu' >
                 <li>
                     <a href="#home"><AiOutlineHome /></a>
