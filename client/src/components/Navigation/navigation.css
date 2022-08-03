@@ -1,0 +1,21 @@
+.navigation-menu a {
+    color: #008CBA;
+}
+
+
+.navigation-menu a:hover {
+    color: #0b5a74;
+}
+
+.navigation-menu li {
+    list-style: none;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+}

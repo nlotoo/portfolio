@@ -1,20 +1,18 @@
 
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import { Navbar } from './navigation/NavigationBar';
-import { HomeScreen } from './HomeScreen/HomeScreen';
-import { Contatct } from './Contatct/Contatct';
+import { HomeScreen } from './components/HomeScreen/HomeScreen';
+import { Contact } from './components/Contact/Contact';
+import { Navigation } from './components/Navigation/Navigation';
+import { Experience } from './components/Experience/Experience';
 
 function App() {
   return (
     <div className="root-app-element">
-      <Routes>
-        <Route path='/' element={<Navbar />} />
-      </Routes>
-    
-      <HomeScreen />
 
-      <Contatct />
+      <HomeScreen />
+      <Navigation />
+      <Contact />
+      <Experience />
     </div>
   );
 }
