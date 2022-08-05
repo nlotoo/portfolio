@@ -1,3 +1,14 @@
+.active-a-tag {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+border-radius: 50%;
+    /* 
+    border-radius: 50%; */
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.258);
+}
+
 .navigation-menu a {
     color: #008CBA;
 }
@@ -28,6 +39,6 @@
     position: fixed;
     left: 40%;
     bottom: 25px;
-    width: 200px;
+    width: 300px;
 
 }
