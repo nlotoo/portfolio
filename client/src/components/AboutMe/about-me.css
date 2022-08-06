@@ -1,0 +1,50 @@
+.about-me-root-element h3 {
+    text-align: center;
+    margin-top: 40px
+}
+
+.about-me-elements {
+    justify-content: center;
+    display: flex;
+}
+
+.about-me-elements div {
+    margin: 50px;
+}
+
+.about-me-experience-frame {
+    display: flex;
+}
+
+.about-me-experience-frame div {
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.about-me-experience-frame:hover div {
+    background-color: #5953532d;
+}
+
+.about-icons-class {
+    font-size: 25px;
+    margin: 0%;
+}
+
+.github-link-icon {
+    font-size: 40px;
+    margin-top: 30px;
+    color: black;
+    margin: 0;
+}
+.project-info a{
+
+    background-color: red;
+/* padding-bottom: 10px; */
+    
+}
+
+
