@@ -14,18 +14,16 @@ export const AboutMe = () => {
                     <img className='img-frame' src='https://www.w3schools.com/w3css/img_avatar3.png' alt='my-avatar' />
                 </div>
                 <div className='about-me-experience-frame'>
-                    <div>
+                    <div className='project-info1'>
                         <span className='about-icons-class'><DiTerminalBadge /></span ><br />
-                        <strong>Experience: </strong>  <br />
-                        2.5+ Years working <br /> with own projects
+                        2.5+ Years working experience <br /> with own projects
                     </div>
-                    <div className='project-info'>
-                        <span className='about-icons-class' ><BsFolderCheck /></span><br />
-                        <strong>Project</strong> <br />
-                        Fully detalis about my project in
-                        <Link className='github-link-icon' to='\github.com/nlotoo' target="_blank" rel="noopener noreferrer">
+                    <div className='project-info2'>
+                        <Link  className='github-link-icon' to='\github.com/nlotoo' target="_blank" rel="noopener noreferrer">
                             <TiSocialGithubCircular />
-                        </Link>
+                        </Link><br/>
+                        Fully detalis about my projects <br />
+
 
                     </div>
                 </div>

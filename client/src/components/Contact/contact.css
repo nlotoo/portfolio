@@ -7,14 +7,15 @@
 
 }
 
-.main-root-cotanct-page{
-background-color: whitesmoke;
+.main-root-cotanct-page {
+    padding-bottom: 50px;
+    background-color: whitesmoke;
 }
 
 .heading-contact-page {
     margin-top: 150px;
     text-align: center;
-   
+
 }
 
 
@@ -27,7 +28,7 @@ background-color: whitesmoke;
 
 }
 
-.email-icon{
+.email-icon {
     font-size: 30px;
 }
 
@@ -48,6 +49,8 @@ background-color: whitesmoke;
 }
 
 .contact-me-a-tag a:hover {
+
+    padding: 10px;
     background-color: #008CBA;
     color: white;
 }

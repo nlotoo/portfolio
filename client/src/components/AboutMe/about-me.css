@@ -17,17 +17,18 @@
 }
 
 .about-me-experience-frame div {
-    border: 1px solid black;
-    width: 250px;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    margin: 5px;
+    width: 200px;
     height: 150px;
-    border-radius: 20px;
     text-align: center;
-    background-color: #F5F5F5;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
 }
 
-.about-me-experience-frame:hover div {
-    background-color: #5953532d;
-}
 
 .about-icons-class {
     font-size: 25px;
@@ -40,11 +41,23 @@
     color: black;
     margin: 0;
 }
-.project-info a{
+.project-info1{
+    padding-top: 10px;
 
-    background-color: red;
-/* padding-bottom: 10px; */
-    
 }
 
+.project-info1:hover {
+    padding-top: 0px;
+    background-color: #008CBA;
+    color: white;
+}
 
+.project-info2:hover {
+    padding-top: 10px;
+    background-color: #008CBA;
+    color: white;
+}
+
+.about-me-root-element{
+    padding-bottom: 60px;
+}
