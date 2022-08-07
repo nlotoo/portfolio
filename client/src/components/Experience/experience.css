@@ -1,0 +1,13 @@
+.experience-root-element h2 p {
+margin: 0;
+font-size: 15px;
+}
+.experience-root-element h2{
+text-align: center;
+}
+.experience-root-element{
+    padding: 40px;
+    background-color: whitesmoke;
+    height: 700px;
+
+}

@@ -1,8 +1,10 @@
+import './experience.css'
+
 export const Experience = () => {
 
     return (
-        <section id='experience'>
-            <h2>Experience</h2>
+        <section className="experience-root-element" id='experience'>
+            <h2><p>What skill i have</p>Experience</h2>
         </section>
     )
 }

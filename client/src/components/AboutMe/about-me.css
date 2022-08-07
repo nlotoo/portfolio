@@ -1,6 +1,11 @@
 .about-me-root-element h3 {
     text-align: center;
-    margin-top: 40px
+
+}
+
+.about-me-root-element p {
+    margin: 0;
+    font-size: 14px;
 }
 
 .about-me-elements {
@@ -41,7 +46,8 @@
     color: black;
     margin: 0;
 }
-.project-info1{
+
+.project-info1 {
     padding-top: 10px;
 
 }
@@ -58,6 +64,16 @@
     color: white;
 }
 
-.about-me-root-element{
-    padding-bottom: 60px;
+.about-me-root-element {
+    padding: 40px;
+}
+
+.text-paragrph-about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.lets-talk-button {
+    display: flex;
+    justify-content: center;
 }
