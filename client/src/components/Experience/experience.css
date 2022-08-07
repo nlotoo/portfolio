@@ -1,13 +1,53 @@
 .experience-root-element h2 p {
-margin: 0;
-font-size: 15px;
+    margin: 0;
+    font-size: 15px;
 }
-.experience-root-element h2{
-text-align: center;
-}
-.experience-root-element{
-    padding: 40px;
-    background-color: whitesmoke;
-    height: 700px;
 
+.experience-root-element h2 {
+    text-align: center;
+}
+
+.experience-root-element {
+    padding: 40px;
+
+}
+
+.experience-skill-frame {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.experience-skill-frame h5 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.front-end-skills {
+    margin: 20px;
+    height: 350px;
+    width: 350px;
+    border: 1px solid green;
+
+}
+
+.back-end-skills {
+    margin: 20px;
+    height: 350px;
+    width: 350px;
+    border: 1px solid salmon;
+}
+
+.front-end-skills ul {
+    margin-top: 30px;
+}
+
+* {
+
+    list-style: none;
+}
+
+
+.li-icon-class {
+    font-size: 30px;
 }

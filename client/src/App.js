@@ -12,9 +12,9 @@ function App() {
 
       <HomeScreen />
       <Navigation />
-      <Contact />
       <AboutMe />
       <Experience />
+      <Contact />
     </div>
   );
 }
