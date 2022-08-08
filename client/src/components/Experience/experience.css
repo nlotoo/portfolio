@@ -1,3 +1,8 @@
+* {
+
+    list-style: none;
+}
+
 .experience-root-element h2 p {
     margin: 0;
     font-size: 15px;
@@ -15,7 +20,8 @@
 .experience-skill-frame {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    
+    /* border: 1px solid red; */
 }
 
 .experience-skill-frame h5 {
@@ -24,30 +30,49 @@
 }
 
 .front-end-skills {
+    background-color: whitesmoke;
     margin: 20px;
-    height: 350px;
+    height: 300px;
     width: 350px;
-    border: 1px solid green;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 3px 10px -1px #000000; 
+    box-shadow: 5px 3px 10px -1px #000000;
+    /* border: 1px solid green; */
 
 }
 
 .back-end-skills {
+    background-color: whitesmoke;
     margin: 20px;
-    height: 350px;
+    height: 300px;
     width: 350px;
-    border: 1px solid salmon;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 3px 10px -1px #000000; 
+    box-shadow: 5px 3px 10px -1px #000000;
+
+    /* border: 1px solid salmon; */
+}
+
+.front-end-skills div {
+    display: flex;
+}
+
+.back-end-skills div {
+    display: flex;
 }
 
 .front-end-skills ul {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-* {
-
-    list-style: none;
+.front-end-skills h5 {
+    font-weight: bold;
 }
-
+.back-end-skills h5 {
+    font-weight: bold;
+}
 
 .li-icon-class {
+    color: #008CBA;
     font-size: 30px;
 }
