@@ -23,12 +23,12 @@ export const Navigation = () => {
                 <li>
                     <a onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active-a-tag' : ''} href="#experience"><BiGitBranch /></a>
                 </li>
-                
-                <li>
-                    <a onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active-a-tag' : ''} href="#contact"><BiMessageDetail /></a>
-                </li>
+
                 <li>
                     <a onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active-a-tag' : ''} href="#portfolio"><MdWorkOutline /></a>
+                </li>
+                <li>
+                    <a onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active-a-tag' : ''} href="#contact"><BiMessageDetail /></a>
                 </li>
 
             </ul>
