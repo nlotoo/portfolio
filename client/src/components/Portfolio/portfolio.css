@@ -1,0 +1,58 @@
+.portfolio-root-element {
+    background-color: whitesmoke;
+    display: grid;
+    justify-content: center;
+}
+
+.portfolio-root-element h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.portfolio-root-element h2 p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.portfolio-image-element {
+    height: 150px;
+    width: 150px;
+}
+
+.project-element p {
+}
+
+
+.project-element {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+.project-element a {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.project-element a:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.portfolio-project-elements {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    border: 1px solid blue;
+}

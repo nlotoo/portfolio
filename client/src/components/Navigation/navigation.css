@@ -27,7 +27,7 @@ border-radius: 50%;
 }
 
 .nav-paf ul {
-    margin-right: 20px;
+    margin-right: 25 px;
     display: flex;
     justify-content: center;
 }
@@ -40,6 +40,6 @@ border-radius: 50%;
     position: fixed;
     left: 40%;
     bottom: 25px;
-    width: 300px;
+    width: 320px;
 
 }

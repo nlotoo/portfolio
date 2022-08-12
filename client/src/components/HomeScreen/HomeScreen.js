@@ -1,7 +1,7 @@
 import { TiSocialFacebookCircular, TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import './homeScreen.css'
-import CV from '../../public/CV_Yordan_Nikolov.doc'
+import CV from '../../public/CV_Yordan_Nikolov.pdf'
 
 export const HomeScreen = () => {
 
