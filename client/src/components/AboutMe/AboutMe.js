@@ -2,6 +2,7 @@ import './about-me.css'
 import { Link } from 'react-router-dom'
 import { DiTerminalBadge } from 'react-icons/di'
 import { TiSocialGithubCircular } from 'react-icons/ti'
+import avatar from '../../public/avatar-pic-680.jpg'
 
 export const AboutMe = () => {
 
@@ -13,7 +14,7 @@ export const AboutMe = () => {
                 <h3><p>Get to know</p> About me</h3>
                 <div className='about-me-elements'>
                     <div className='imgs-element'>
-                        <img className='img-frame' src='https://www.w3schools.com/w3css/img_avatar3.png' alt='my-avatar' />
+                        <img className='img-frame-about' src={avatar} alt='my-avatar' />
                     </div>
                     <div className='about-me-experience-frame'>
                         <div className='project-info1'>

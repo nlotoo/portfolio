@@ -18,6 +18,7 @@
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bolder;
 
 }
 
@@ -37,13 +38,14 @@
 }
 
 .homeScreen-root-element {
+    margin-top: 150px;
     text-align: center;
     padding: 40px;
 }
 
 .img-frame {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     box-shadow: -36px 35px 0px -24px #FF7C7C;
     margin-bottom: 20px;
 }
@@ -73,3 +75,4 @@
     right: 5%;
     transform: rotate(90deg);
 }
+

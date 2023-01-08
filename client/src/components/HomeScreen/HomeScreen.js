@@ -2,6 +2,7 @@ import { TiSocialFacebookCircular, TiSocialLinkedinCircular, TiSocialGithubCircu
 import { Link } from "react-router-dom";
 import './homeScreen.css'
 import CV from '../../public/CV_Yordan_Nikolov.pdf'
+import avatar from '../../public/profile-pic.jpg'
 
 export const HomeScreen = () => {
 
@@ -10,12 +11,11 @@ export const HomeScreen = () => {
 
     return (
         <section id='home' className='homeScreen-root-element'>
-            <div><img className='img-frame' src='https://www.w3schools.com/w3css/img_avatar3.png' alt='my-avatar' /></div>
+            <div><img className='img-frame' src={avatar} alt='my-avatar' /></div>
             <div className="heading-txt" >Hello i`m</div>
             <h3 className='my-name'>Yordan Nikolov</h3>
-            <div className="heading-txt" >Fullstack Developer</div>
+            <div className="heading-txt" >Web Developer</div>
             <div className='home-screen-buttons'>
-
                 <Link to={CV} target="_blank" rel="noopener noreferrer" download>Download CV</Link>
                 <a href="#contact" >Let`s Talk</a>
                 {/* <Link to='#contact'>Let`s Talk</Link> */}

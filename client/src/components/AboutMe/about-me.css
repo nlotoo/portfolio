@@ -67,7 +67,7 @@
 .about-me-root-element {
     background-color: whitesmoke;
     margin-top: 150px;
- 
+
     padding: 40px;
 }
 
@@ -79,4 +79,8 @@
 .lets-talk-button {
     display: flex;
     justify-content: center;
+}
+
+.img-frame-about {
+    width: 300px;
 }
