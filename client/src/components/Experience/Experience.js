@@ -23,9 +23,9 @@ export const Experience = () => {
                         </ul>
                         <ul>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> React</li>
+                            <li><i className='li-icon-class'><BiBadgeCheck /></i> Next.JS</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Bootstrap</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> MUI</li>
-                            <li><i className='li-icon-class'><BiBadgeCheck /></i> Adobe Photoshop</li>
 
                         </ul>
                     </div>
