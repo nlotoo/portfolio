@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 // import {portfolio212} from '../../public/portfolio-project-img.jpg'
 import portFolio from '../../public/portfolio-project-img.jpg'
 import JNcoffee from '../../public/jnCoffee-project-img.jpg'
+import petCatalog from '../../public/pet-catalog.jpg'
 
 
 export const Portfoilio = () => {
@@ -39,7 +40,7 @@ export const Portfoilio = () => {
 
 
                 <div className='project-element'>
-                    <img className='portfolio-image-element' src="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvamVjdHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Smiley face" />
+                    <img className='portfolio-image-element' src={petCatalog} alt="Smiley face" />
                     <p>Pet Catalog <br />
                         (ReactJS application)<br></br>
                         (Course project)
