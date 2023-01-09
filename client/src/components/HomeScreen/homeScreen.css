@@ -9,12 +9,13 @@
     background-color: white;
     color: black;
     border: 2px solid #008CBA;
-    padding: 16px 32px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 4px 2px;
+    margin: 4px 10px;
+    
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
@@ -53,13 +54,12 @@
 .home-screen-social-media-icon {
 
     font-size: 40px;
-    left: 30px;
     position: absolute;
-    left: 5%;
+    left: 10%;
 }
 
 .home-screen-social-media-icon div {
-    height: 36px;
+    height: 40px;
 
 }
 
@@ -72,7 +72,7 @@
     margin-top: 55px;
     font-weight: bold;
     position: absolute;
-    right: 5%;
+    right: 10%;
     transform: rotate(90deg);
 }
 
