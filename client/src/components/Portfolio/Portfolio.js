@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import portFolio from '../../public/portfolio-project-img.jpg'
 import JNcoffee from '../../public/jnCoffee-project-img.jpg'
 import petCatalog from '../../public/pet-catalog.jpg'
-
+import coffeeLovers from '../../public/cofferLovers.jpg'
 
 export const Portfoilio = () => {
 
@@ -48,7 +48,7 @@ export const Portfoilio = () => {
                     <Link to="\github.com/nlotoo/Pet-HUB-Application">view in Github</Link>
                 </div>
                 <div className='project-element'>
-                    <img className='portfolio-image-element' src="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvamVjdHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Smiley face" />
+                    <img className='portfolio-image-element' src={coffeeLovers} alt="Smiley face" />
                     <p>Coffe Lovers<br />
                         ( Angular/TypeScript application)
                         (Course project)
