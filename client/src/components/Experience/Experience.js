@@ -12,11 +12,11 @@ export const Experience = () => {
 
             </div>
 
-            <h2><p>What skill i have</p>Experience</h2>
+            <h2 className='section-heading'><p>What skill i have</p>Experience</h2>
 
 
             <div className='experience-skill-frame'>
-                <div className='front-end-skills'>
+                <div className='skills-square'>
                     <h5>Fontend Development</h5>
                     <div>
                         <ul>
@@ -35,7 +35,7 @@ export const Experience = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='back-end-skills'>
+                <div className='skills-square'>
                     <h5>Backend Development</h5>
                     <div>
                         <ul>
@@ -55,7 +55,7 @@ export const Experience = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='back-end-skills'>
+                <div className='skills-square'>
                     <h5>Aditional skills</h5>
                     <div>
                         <ul>

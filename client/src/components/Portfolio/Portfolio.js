@@ -13,7 +13,7 @@ export const Portfoilio = () => {
     return (
         <section id='portfolio' className="portfolio-root-element">
 
-            <h2><p>My Recent Work</p>Portfolio</h2>
+            <h2 className='section-heading'><p>My Recent Work</p>Portfolio</h2>
 
 
             <div className='portfolio-project-elements'>

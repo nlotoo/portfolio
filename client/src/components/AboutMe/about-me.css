@@ -76,6 +76,13 @@
     display: flex;
     justify-content: center;
 }
+.text-paragrph-about-me  p {
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    
+}
+
 
 .lets-talk-button {
     display: flex;

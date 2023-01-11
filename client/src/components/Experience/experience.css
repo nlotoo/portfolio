@@ -22,7 +22,7 @@
 .experience-skill-frame {
     display: flex;
     justify-content: center;
-    font-weight:600;
+    /* font-weight:600; */
 
 
     /* border: 1px solid red; */
@@ -34,7 +34,7 @@
     font-size: 25px;
 }
 
-.front-end-skills {
+.skills-square {
     background-color: whitesmoke;
     margin: 20px;
     height: 300px;
@@ -47,31 +47,16 @@
 
 }
 
-.back-end-skills {
-    background-color: whitesmoke;
-    margin: 20px;
-    height: 300px;
-    width: 350px;
-    border-radius: 10px;
-    -webkit-box-shadow: 5px 3px 10px -1px #000000;
-    box-shadow: 5px 3px 10px -1px #000000;
 
-    /* border: 1px solid salmon; */
-}
-
-.front-end-skills div {
+.skills-square div {
     display: flex;
 }
 
-.back-end-skills div {
-    display: flex;
-}
-
-.front-end-skills ul {
+.skills-square ul {
     margin-top: 20px;
 }
 
-.front-end-skills h5 {
+.skills-square h5 {
     font-weight: bold;
 }
 
