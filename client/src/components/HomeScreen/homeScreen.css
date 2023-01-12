@@ -76,3 +76,15 @@
     transform: rotate(90deg);
 }
 
+
+@media only screen and (max-width: 425px){
+	
+
+
+.home-screen-scroll-down div {
+    position: absolute;
+    right: 5%;
+}
+
+
+}

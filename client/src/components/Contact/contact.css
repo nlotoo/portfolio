@@ -54,3 +54,16 @@
     background-color: #008CBA;
     color: white;
 }
+
+
+@media only screen and (max-width: 425px) {
+
+    .contact-page-root {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

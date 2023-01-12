@@ -3,10 +3,11 @@
 
 }
 
-.about-me-root-element p {
-    margin: 0;
+.heading-paragraph {
     font-size: 14px;
+    margin: 0;
 }
+
 
 .about-me-elements {
     justify-content: center;
@@ -76,12 +77,8 @@
     display: flex;
     justify-content: center;
 }
-.text-paragrph-about-me  p {
-    border-radius: 5px;
-    width: 60%;
-    text-align: center;
-    
-}
+
+
 
 
 .lets-talk-button {
@@ -92,4 +89,52 @@
 .img-frame-about {
     width: 300px;
     box-shadow: 36px -35px 0px -24px #7a98fa;
+}
+
+.about-me-text {
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    background-color: #6bd3f59a;
+    padding: 30px;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 425px) {
+
+
+    .about-me-elements {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .about-me-text {
+        width: 100%;
+        height: 462px;
+
+        overflow: hidden;
+        /* background: rgb(255, 255, 255);
+        background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.5329482134650736) 0%, rgba(107, 211, 245, 100) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.5329482134650736) 0%, rgba(107, 211, 245, 100) 100%);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5329482134650736) 0%, rgba(107, 211, 245, 100) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#22c1c3", GradientType=1); */
+    }
+
+    .text-paragrph-about-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .about-me-elements div {
+        margin: 20px;
+    }
+
+
 }
