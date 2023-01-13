@@ -82,13 +82,18 @@
         height: 50px;
     }
 
-    .contact-form button {
+    /* .contact-form button {
         margin-left: 129px;
+    } */
+
+    .contact-form .send-me-email {
+        height: 50px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
     }
 
     .send-me-email {
-        width: 95%;
-        margin: auto;
-        margin-bottom: 20px;
+
     }
 }

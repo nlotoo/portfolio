@@ -65,5 +65,10 @@
         align-items: center;
     }
 
+    .contact-me-a-tag a{
+
+        margin-bottom: 20px;
+        width: 300px;
+    }
 
 }

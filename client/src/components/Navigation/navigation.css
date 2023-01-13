@@ -44,3 +44,12 @@ border-radius: 50%;
     width: 320px;
 
 }
+
+@media only screen and (max-width: 425px) {
+    .nav-paf {
+        left: 9%;
+
+    }
+    }
+
+    
