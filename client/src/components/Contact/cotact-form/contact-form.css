@@ -86,5 +86,9 @@
         margin-left: 129px;
     }
 
-
+    .send-me-email {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }

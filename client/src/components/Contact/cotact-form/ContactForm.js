@@ -10,9 +10,7 @@ export const ContatctForm = () => {
         duration: 4000,
     });
 
-    let flag = window.screen.width <= 390
 
-    console.log(window.screen.width <= 390)
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -31,13 +29,13 @@ export const ContatctForm = () => {
 
     return (
         <div className='contact-me-form'>
-            {flag? <h4 className='email-heading'>Send email</h4> : ''}
+            {/* {flag ? <h4 className='email-heading'>Send email</h4> : ''} */}
 
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <input placeholder='Your full name' name="name"></input>
                 <input placeholder='Email' name='email'></input>
                 <textarea name='message' ></textarea>
-                <button onClick={notify}>Send</button>
+                <button className='send-me-email' onClick={notify}>Send</button>
                 <Toaster />
             </form>
         </div>)

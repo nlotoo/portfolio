@@ -17,8 +17,9 @@ export const Contact = () => {
     return (
         <section id='contact' className='main-root-cotanct-page'>
 
-            <h4 className='heading-contact-page section-heading' >Contact Me</h4>
+            <h4 className='heading-contact-page'>Contact Me</h4>
             <div className='contact-page-root'>
+            <ContatctForm />
                 <div className='contact-me-a-tag'>
                     <Link to='\mailto:nlotoo93@gmail.com'>
                         <TiMail className='email-icon' /><br />
@@ -41,7 +42,6 @@ export const Contact = () => {
                         +447405608112 <br />
                     </Link>
                 </div>
-                <ContatctForm />
             </div>
         </section>
     )
