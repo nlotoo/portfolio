@@ -21,7 +21,7 @@ export const Portfoilio = () => {
 
                 <div className='project-element'>
                     <img className='portfolio-image-element' src={JNcoffee} alt="Smiley face" />
-                    <p>JN Coffe <br />
+                    <p>JN Coffee <br />
                         (Next.js ecommerce app)
                     </p>
                     <Link to="\github.com/nlotoo/ecommerce">view in Github</Link>
