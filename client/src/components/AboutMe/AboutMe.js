@@ -7,9 +7,18 @@ import { useState } from 'react'
 
 export const AboutMe = () => {
 
-    let [readMoreText, setReadMore] = useState('');
+    let [readMoreText, setReadMore] = useState('nomore');
 
+    function readMore() {
+        console.log('click')
+        console.log(readMoreText)
 
+        if (readMoreText === 'nomore') {
+            setReadMore('more')
+        } else {
+            setReadMore('nomore')
+        }
+    }
 
 
     return (
@@ -38,9 +47,15 @@ export const AboutMe = () => {
             </div>
             <div className='text-paragrph-about-me'>
                 <p className='about-me-text'>
-                    I am a positive, enthusiastic  Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role. I have experience working on SPA and Multi-page application more they 10 and them back-end  for example for that are my projects with stacks (JS with Express & Mongo, MERN, Next.js & Sanity, Angular with TypreScript & Firebase, PhP & MySQL and etc.) most of them were made for a certain period with criteria and were evaluated. Тhey have  developed my time management skills, problem-solving skills, creativity, attention to detail.
-                    they are  also challenging web development projects that require outstanding technical capabilities and the ability to ensure all work is optimized across a wide range of platforms. I take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this rapidly changing industry. If you hire me as your Web Developer, I assure you I will fit into your team quickly, I will always put the commercial needs of your business at the forefront of everything I do, and the work I carry out will be consistent to a first-class standard.”
-                    {/* I am a positive, enthusiastic and competent Web Developer who, over the years, <br></br> has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role. */}
+                    I am a positive, enthusiastic  Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee I will perform in this role.
+                    I have experience working on SPA and Multi-page more than 10 applications and their back-end here is an example of technologies i used in my previous projects (JS with Express & Mongo, MERN, Next.js & Sanity, Angular with TypeScript & Firebase, PhP & MySQL and etc.) most of them were made for a certain period with criteria and were highly evaluated from my mentors.
+                    They were challenging web development projects where i had <span onClick={readMore}>READ MOREE</span>
+                    <span className={readMoreText}>
+                        to ensure all work is optimized across a wide range of platforms.
+                        They have  developed my time management skills, problem-solving skills, creativity, attention to detail.
+                        Thats why i take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this rapidly changing industry. If you hire me as your Web Developer, I assure you I will fit into your team quickly, I will always put the commercial needs of your business at the forefront of everything I do, and the work I carry out will be consistent to a first-class standard.”
+                    </span>
+
                 </p>
 
                 {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nihil?<br /> Reprehenderit dolorum autem ab, facilis, necessitatibus cupiditate officiis eos mollitia corporis<br /> in nostrum. Vitae, tenetur, eaque dolorem sequi molestias atque <br />consequuntur cupiditate animi, quia expedita a mollitia neque possimus maxime.</p> */}
