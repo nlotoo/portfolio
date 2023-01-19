@@ -12,7 +12,7 @@ export const HomeScreen = () => {
     return (
         <section id='home' className='homeScreen-root-element'>
             <div><img className='img-frame' src={avatar} alt='my-avatar' /></div>
-            <div className="heading-txt" >Hello i`m</div>
+            <div className="heading-txt" >Hello I`m</div>
             <h3 className='my-name'>Yordan Nikolov</h3>
             <div className="heading-txt" >Web Developer</div>
             <div className='home-screen-buttons'>

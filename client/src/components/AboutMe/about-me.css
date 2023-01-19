@@ -103,8 +103,23 @@
 .more {
     display: inline;
 }
-.nomore{
+
+.nomore {
     display: none;
+}
+
+.readMore-btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #008bba27;
+}
+
+.readMore-btn:hover {
+    background-color: rgba(128, 128, 128, 0.295);
 }
 
 
@@ -121,7 +136,6 @@
 
     .about-me-text {
         width: 100%;
-        /* height: 462px; */
 
         overflow: hidden;
         /* background: rgb(255, 255, 255);
