@@ -1,6 +1,15 @@
 import './experience.css'
 import { BiBadgeCheck } from 'react-icons/bi'
+import reactSt from '../../public/certificates/reactSt.jpg'
+import AngularJS from '../../public/certificates/AngularJS.jpg'
+import HonorableMention from '../../public/certificates/HonorableMention.jpg'
+import HTMLandCSS from '../../public/certificates/HTMLandCSS.jpg'
+import JsAdvanced from '../../public/certificates/JsAdvanced.jpg'
+import JSApplications from '../../public/certificates/JSApplications.jpg'
+import JsBackEnd from '../../public/certificates/JsBackEnd.jpg'
+import JsFundamentals from '../../public/certificates/JsFundamentals.jpg'
 
+import { Link } from 'react-router-dom'
 
 
 
@@ -81,6 +90,20 @@ export const Experience = () => {
 
 
 
+            </div>
+            <div className='certificate-container'>
+                <h2 className='cetificate-heading'>Certificates</h2>
+                <ul className='cetificate-carosel'>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/85395/7963ad25'><img className='certificate' src={HonorableMention} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/96778/97691043'><img className='certificate' src={JsFundamentals} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/98324/910d7d01'><img className='certificate' src={JsAdvanced} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/102393/e7ab6299'><img className='certificate' src={JSApplications} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/108981/533e06d5'><img className='certificate' src={JsBackEnd} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/147278/c4eb4c7b'><img className='certificate' src={HTMLandCSS} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/152915/29f71e9b'><img className='certificate' src={AngularJS} alt='serticate-react'></img></Link></div></li>
+                    <li><div className='certificate-box'><Link target="_blank" to='\softuni.bg/certificates/details/140749/2b013d3f'><img className='certificate' src={reactSt} alt='serticate-react'></img></Link></div></li>
+
+                </ul>
             </div>
 
 

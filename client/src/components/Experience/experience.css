@@ -83,6 +83,31 @@
     box-shadow: -1px 5px 15px black;
 }
 
+
+.cetificate-carosel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificate-box {
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 200px;
+}
+
+.certificate {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.certificate:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-duration: 600ms;
+   
+}
+
 @media only screen and (max-width: 425px) {
     .experience-skill-frame {
 
