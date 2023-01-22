@@ -87,9 +87,12 @@
 .cetificate-carosel {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .certificate-box {
+    
     /* border: 1px solid black; */
     width: 150px;
     height: 200px;
@@ -120,5 +123,23 @@
         width: 320px;
     }
 
+    .cetificate-carosel {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
 
+    .certificate-box {
+        overflow: hidden;
+       margin-bottom: 15px;
+    }
+
+    .cetificate-carosel:nth-child(1){
+        
+        border: 1px solid black;
+    }
 }
