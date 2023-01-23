@@ -84,7 +84,7 @@
 }
 
 
-.cetificate-carosel {
+.cetificate-tray {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -92,7 +92,7 @@
 }
 
 .certificate-box {
-    
+
     /* border: 1px solid black; */
     width: 150px;
     height: 200px;
@@ -104,12 +104,27 @@
     border-radius: 5px;
 
 }
+
 .certificate:hover {
     transform: scale(1.1);
     cursor: pointer;
     transition-duration: 600ms;
-   
+
 }
+
+.cetificate-tray li:nth-child(1) {
+    border: 1px solid black;
+}
+
+.hideCertificates {
+    display: none;
+}
+
+.showCertificates {
+    display: inline;
+}
+
+
 
 @media only screen and (max-width: 425px) {
     .experience-skill-frame {
@@ -118,28 +133,49 @@
         align-items: center;
     }
 
+    .certificate-container{
+        text-align: center;
+    }
+
     .skills-square {
         height: 280px;
         width: 320px;
     }
 
-    .cetificate-carosel {
+    .cetificate-tray {
         display: flex;
         flex-wrap: wrap;
         align-content: center;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+
     }
 
     .certificate-box {
         overflow: hidden;
-       margin-bottom: 15px;
+        margin-bottom: 15px;
     }
 
-    .cetificate-carosel:nth-child(1){
-        
-        border: 1px solid black;
+    .btn-certificate{
+        background-color: white;
+        color: black;
+        border: 2px solid #008CBA;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        /* margin: 4px 10px; */
+        margin-left: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bolder;
     }
+    .btn-certificate:hover{
+        background-color: #008CBA;
+        color: white;
+    }
+
 }
