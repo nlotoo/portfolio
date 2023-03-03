@@ -41,7 +41,7 @@ export const Experience = () => {
 
             <div className='experience-skill-frame'>
                 <div className='skills-square'>
-                    <h5>Fontend Development</h5>
+                    <h5>Font-end Development</h5>
                     <div>
                         <ul>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> HTML</li>
@@ -60,7 +60,7 @@ export const Experience = () => {
                     </div>
                 </div>
                 <div className='skills-square'>
-                    <h5>Backend Development</h5>
+                    <h5>Back-end Development</h5>
                     <div>
                         <ul>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Node.js</li>
