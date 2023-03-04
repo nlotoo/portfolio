@@ -154,8 +154,16 @@
 
 
     .about-me-elements div {
-        margin: 20px;
+        /* margin: 30px; */
+        width: 100%;
     }
 
+    .about-me-experience-frame  {
+       
+    }
+
+    /* .project-info1 {
+        width: 100%;
+    } */
 
 }

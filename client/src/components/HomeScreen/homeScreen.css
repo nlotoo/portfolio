@@ -15,11 +15,12 @@
     display: inline-block;
     font-size: 12px;
     margin: 4px 10px;
-    
+
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bolder;
+    border-color: 0px solid red;
 
 }
 
@@ -77,14 +78,27 @@
 }
 
 
-@media only screen and (max-width: 425px){
-	
+@media only screen and (max-width: 425px) {
 
+    .home-screen-buttons a {
+        width: 100%;
+    }
 
-.home-screen-scroll-down div {
-    position: absolute;
-    right: 5%;
-}
+    .home-screen-scroll-down {
+        
+        display: none;
+    }
+
+    .home-screen-social-media-icon {
+        display: flex;
+        
+    }
+    .home-screen-social-media-icon div {
+        margin-left: 40px;
+        font-size: 50px;
+
+    }
+
 
 
 }

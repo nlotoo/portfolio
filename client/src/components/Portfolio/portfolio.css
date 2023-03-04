@@ -67,18 +67,23 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .portfolio-project-elements{
+    .portfolio-project-elements {
         height: auto;
         flex-direction: column;
         align-items: center;
     }
 
-    .project-element{
+    .project-element {
         width: 270px;
         height: 330px;
     }
 
-    .portfolio-image-element{
+    .portfolio-image-element {
         margin-bottom: 20px;
     }
+
+    .project-element:hover {
+        transform: none;
+    }
+
 }
