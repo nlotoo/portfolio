@@ -15,12 +15,10 @@
     display: inline-block;
     font-size: 12px;
     margin: 4px 10px;
-
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bolder;
-    border-color: 0px solid red;
 
 }
 
