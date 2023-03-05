@@ -156,6 +156,7 @@
     .about-me-elements div {
         /* margin: 30px; */
         width: 100%;
+        text-align: center;
     }
 
     .about-me-experience-frame  {
