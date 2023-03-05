@@ -76,21 +76,22 @@
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 600px) {
 
     .home-screen-buttons a {
         width: 100%;
     }
 
     .home-screen-scroll-down {
-        
+
         display: none;
     }
 
     .home-screen-social-media-icon {
         display: flex;
-        
+
     }
+
     .home-screen-social-media-icon div {
         margin-left: 40px;
         font-size: 50px;

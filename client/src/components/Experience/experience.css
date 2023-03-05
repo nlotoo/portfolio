@@ -126,7 +126,7 @@
 
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 600px) {
     .experience-skill-frame {
 
         flex-direction: column;
