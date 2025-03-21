@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footer-body'>
             <p>
-            © 2023 Yordan Nikolov. All Rights Reserved.
+            © 2025 Yordan Nikolov. All Rights Reserved.
             </p>
         </div>
     )

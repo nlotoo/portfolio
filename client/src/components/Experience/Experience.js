@@ -82,17 +82,20 @@ export const Experience = () => {
                 <div className='skills-square'>
                     <h5>Aditional skills</h5>
                     <div>
+
                         <ul>
+                            <li><i className='li-icon-class'><BiBadgeCheck /></i> SEO</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Bootstrap</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> MUI</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Postman</li>
-                            <li><i className='li-icon-class'><BiBadgeCheck /></i> NPM</li>
 
 
 
 
                         </ul>
                         <ul>
+                            <li>
+                                <i className='li-icon-class'><BiBadgeCheck /></i> NPM</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Git</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Mocha</li>
                             <li><i className='li-icon-class'><BiBadgeCheck /></i> Chai</li>

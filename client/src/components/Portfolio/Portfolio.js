@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 // import {portfolio212} from '../../public/portfolio-project-img.jpg'
 import portFolio from '../../public/portfolio-project-img.jpg'
 import JNcoffee from '../../public/jnCoffee-project-img.jpg'
+import cozycandle from '../../public/cozycandle-website-img.jpg'
 import petCatalog from '../../public/pet-catalog.jpg'
 import coffeeLovers from '../../public/cofferLovers.jpg'
 
@@ -18,6 +19,16 @@ export const Portfoilio = () => {
 
             <div className='portfolio-project-elements'>
 
+
+                <div className='project-element'>
+                    <img className='portfolio-image-element' src={cozycandle} alt="Smiley face" />
+                    <p>Cozycandle <br />
+                        (WP ecommerce website)
+                    </p>
+                    {/* <Link to="\github.com/nlotoo/ecommerce">view in Github</Link> */}
+                    <Link to="\cozycandles.co.uk/">Live</Link>
+
+                </div>
 
                 <div className='project-element'>
                     <img className='portfolio-image-element' src={JNcoffee} alt="Smiley face" />
@@ -55,6 +66,15 @@ export const Portfoilio = () => {
                     </p>
                     <Link to="\github.com/nlotoo/Angular--course-project">view in Github</Link>
                 </div>
+
+                {/* <div className='project-element'>
+                    <img className='portfolio-image-element' alt="Smiley face" />
+                    <p>Coffe Lovers<br />
+                        ( Example example)
+                        (Example)
+                    </p>
+                    <Link to="\github.com/nlotoo">view in Github</Link>
+                </div> */}
 
 
             </div>

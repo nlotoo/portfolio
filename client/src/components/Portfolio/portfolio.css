@@ -1,8 +1,15 @@
 .portfolio-root-element {
     background-color: whitesmoke;
-    display: grid;
+    /* display: grid; */
     justify-content: center;
+    /* flex-wrap: wrap; */
+
+
     padding-bottom: 40px;
+    height: 800px;
+
+    /* border: 1px solid green; */
+
 }
 
 .portfolio-root-element h2 {
@@ -23,18 +30,19 @@
 }
 
 .project-element:hover {
+    box-shadow: 2px 4px 20px -3px #000000;
     transform: scale(1.1);
 }
 
 
 .project-element {
-    /* padding: 15px; */
+    padding: 15px;
     padding-top: 35px;
     text-align: center;
     background-color: white;
     border-radius: 10px;
     -webkit-box-shadow: 5px 3px 10px -1px #000000;
-    box-shadow: 5px 3px 10px -1px #000000;
+    box-shadow: 1px 3px 7px -1px #000000;
     width: 270px;
     /* height: 350px; */
     margin: 20px;
@@ -61,6 +69,7 @@
 
 .portfolio-project-elements {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 350px;
     /* border: 1px solid blue; */
